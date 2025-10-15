@@ -42,3 +42,13 @@ body {
 .publications ol { padding-left: 1.2em }
 .publications li { margin: 0 0 12px; line-height: 1.5; font-size: 15px }
 
+/* Divider between sections */
+.divider {
+	width: 100%;
+	max-width: 720px;
+	border: none;
+	height: 1px;
+	background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.12) 10%, rgba(0,0,0,0.12) 90%, rgba(0,0,0,0) 100%);
+	margin: 5px auto;
+}
+
