@@ -39,7 +39,7 @@ body {
 /* Publications */
 .publications { max-width: 720px; width:100%; margin: 24px auto; padding: 0 16px; text-align: left }
 .publications h2 { text-align: center; margin-bottom: 8px }
-.publications ol { padding-left: 1.2em }
+.publications ol { padding-left: 1.2em; list-style-type: decimal }
 .publications li { margin: 0 0 12px; line-height: 1.5; font-size: 15px }
 
 /* Divider between sections */
