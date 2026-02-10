@@ -54,3 +54,22 @@ body {
 
 /* Research section: styles are shared with .publications to ensure visual consistency */
 
+
+/* Make images responsive */
+img { max-width: 100%; height: auto; display: block; }
+
+/* Ensure avatar scales on small screens */
+.avatar { width: 160px; height: 160px; }
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+	body { padding: 20px 12px; }
+	.intro { max-width: 100%; padding: 0 8px; }
+	.intro h1 { font-size: 20px; }
+	.intro p { font-size: 16px; }
+	.avatar { width: 112px; height: 112px; margin-bottom: 10px; }
+	.publications { max-width: 100%; padding: 0 8px; }
+	.publications li { font-size: 14px; line-height: 1.45; }
+	.divider { margin: 14px auto; }
+}
+
