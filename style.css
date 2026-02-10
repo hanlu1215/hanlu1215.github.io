@@ -58,6 +58,13 @@ body {
 /* Make images responsive */
 img { max-width: 100%; height: auto; display: block; }
 
+/* Figures inserted for publications */
+.paper-figure img { display: block; margin: 8px auto; max-width: 100%; height: auto; }
+
+/* Video wrapper for publication embeds: center and make responsive */
+.paper-video { display: flex; justify-content: center; margin-top: 8px; }
+.paper-video iframe { width: 100%; max-width: 900px; aspect-ratio: 16/9; height: auto; border: 0; }
+
 /* Ensure avatar scales on small screens */
 .avatar { width: 160px; height: 160px; }
 
